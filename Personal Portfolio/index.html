@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	<title>DevAnkit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>  
+    <!-- for fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="img/7.png" alt="logo">
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ankit Lenka</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack Developer</p>
+            <img src="img/10.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+     <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                   <h3>Front end development</h3>
+                    <p>I have a knack for making creative,beautiful websites.I have hands-on experience on HTML,CSS,javaScript,jQuery etc.I have interned as a front-end web developer in a startup also i am currenty learning React.js to add another tool to my bag.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Back end development</h3>
+                    <p>A beautiful site with no functionality is of no use.I have learned backend technologies using hands-on projects.The technologies include node.js,Express,MongoDB,MySQL,Security and authentication of websites.I have also worked on some other frameworks such as chart.js,p5.js and socket.io.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Web designing</h3>
+                    <p>For me, a good design goes a long way into making a good website.I have always stressed more on the design aspect of my websites rather than the development aspect.It is what gives originality to your website and i always try to incorporate that within my projects as well.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">See my work</a>
+        </section>
+          <!-- about me -->
+         <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer based in New-Delhi</p>
+           
+           <div class="about-me__body">
+               <p class="about-me__body--text">I'm a web designer / developer based in New Delhi, India. I have a passion for web design and love to create for web and mobile devices ❤.</p>
+               <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
+               <p>I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+           </div>
+           
+           <img src="img/8.jpg" alt="Ankit" class="about-me__img">
+        </section>
+      <!--   <a href="#work" style="margin: auto;" class="btn">My Work</a> -->
+        
+        <!-- My Work -->
+        <section class="my-work my-work--color" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://teamkalpana.github.io/Team-Kalpana/" class="portfolio__item">
+                    <img src="img/12.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://laughing-mahavira-6f99a0.netlify.com/" class="portfolio__item">
+                    <img src="img/2.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://flamboyant-mayer-0543b2.netlify.com/" class="portfolio__item">
+                    <img src="img/3.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="http://nsut.iosd.tech/" class="portfolio__item">
+                    <img src="img/4.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://adoring-chandrasekhar-98c444.netlify.com/" class="portfolio__item">
+                    <img src="img/5.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://www.thehealthycompany.in/" class="portfolio__item">
+                    <img src="img/6.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:ankitl.ec18@nsut.ac.in" class="footer__link">ankitl.ec18@nsut.ac.in</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Ankitlenka26"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ankit-lenka-19b876165/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/ankit.lenka"><i class="fab fa-facebook"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/ankit_lenka_/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p class="footer__link">Made with 💞 and lot's of caffeine 😂 By Ankit Lenka </p>
+        </footer>
+        <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
+
